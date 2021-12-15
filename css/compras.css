@@ -1,0 +1,13 @@
+.compras{
+    border-spacing: 5em;
+}
+.proximo{
+    padding: 0.5em;
+}
+.compras-row{
+    text-align: center;
+}
+.proximo thead{
+    color: #6A994E;
+    text-align: center;
+}

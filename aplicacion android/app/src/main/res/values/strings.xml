@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ManyFoods</string>
+    <string name="inicio">Iniciar sesion</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confirmar_contraseña">Confirmar contraseña</string>
+    <string name="usuario">Correo electronico</string>
+    <string name="hint_usuario">Ingrese su correo electronico</string>
+    <string name="hint_password">Ingrese su contraseña</string>
+    <string name="login_button">Iniciar sesion</string>
+    <string name="sign_in_button">Registrarse</string>
+    <string name="forgot_password">Olvidaste tu contraseña</string>
+    <string name="email_example">correo@example.com</string>
+    <string name="field_nombre">Ingrese su nombre</string>
+    <string name="name_hint">Tu nombre...</string>
+    <string name="fecha_nacimiento">Ingresa tu fecha de nacimiento</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+</resources>

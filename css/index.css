@@ -1,0 +1,88 @@
+
+
+/*
+  verde 1: 386641
+  verde 2: 6A994E
+  verde 3: A7C957
+  verde 4: 558B6E;
+  rojo 1: BC4749
+  azul 1: 086375
+  azul 2: 0496FF
+  naranja 1: FF8C61
+  amarillo 1: FFBC42
+
+
+ */
+*{
+  font-family: Roboto;
+}
+header{
+  background-color: #6A994E;
+}
+header nav ul li a {
+  color: white;
+  font-weight: bolder;
+}
+#login{
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #0496FF;
+  border-width: 0.24em;
+  border-style:solid;
+  color: #fffffF;
+  padding: 0.5em 1.5em;
+  border-radius: 0.3em;
+}
+#login:focus{
+  color: #0496FF;
+  background-color: transparent;
+}
+#login:hover{
+  background-color: #0496FF;
+  color: white;
+}
+#signin{
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #FF8C61;
+  border-width: medium;
+  border-style:solid;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+  border-radius: 0.3em;
+}
+#signin:focus{
+  color: #FF8C61;
+  background-color: transparent;
+}
+#signin:hover{
+  background-color: #FF8C61;
+  color: white;
+}
+.parallax {
+  /* The image used */
+
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.info {
+  padding-top: 0.5em;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 25%;
+  width: 70%;
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+  color: whitesmoke;
+  font-weight: bolder;
+}

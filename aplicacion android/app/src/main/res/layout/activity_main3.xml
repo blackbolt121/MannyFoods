@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
+        android:layout_margin="10sp"
+        android:layout_marginBottom="22dp"
+        android:layout_weight="1"
+        android:gravity="center|center_vertical"
+        android:text="Tu lista de compras"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/compras_showCompras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/compras_atras"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/compras_showCompras"
+        android:layout_width="364dp"
+        android:layout_height="476dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/compras_total"
+        android:layout_width="184dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="Total: $0.00"
+        android:textColor="#00E676"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toEndOf="@+id/compras_atras"
+        app:layout_constraintTop_toBottomOf="@+id/compras_showCompras"
+        app:layout_constraintVertical_bias="0.305" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

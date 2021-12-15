@@ -1,0 +1,24 @@
+.center{
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+}
+.red{
+    width: 60%;
+    border: 0.15em solid #cb0000;
+    border-radius: 0.5em;
+    background-color: #FF7F7F;
+    color: white;
+}
+.center input[type="text"], .center input[type="password"], .center input[type="number"], .center select{
+    margin-bottom: 1em;
+    width: 60%;
+    text-align: center;
+    font-size: 1em;
+    height: 2.5em;
+}
+.inline-number{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+}
